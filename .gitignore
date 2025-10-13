@@ -1,0 +1,101 @@
+# ---------------------------------------------------
+# Python-specific ignores
+# ---------------------------------------------------
+
+DataIngestion/
+llmmodels/app.py
+llmmodels/chatbot.ipynb
+serve.py
+simplellmLCEL.ipynb
+
+
+
+
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Environments
+env/
+venv/
+.venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# ---------------------------------------------------
+# LangChain and AI-specific ignores
+# ---------------------------------------------------
+
+# Sensitive environment variables and secrets
+# For configuration, it's safer to use a service like AWS Secrets Manager or a secrets management tool.
+.env
+config.json
+secrets.yaml
+
+# Vector stores and persistent storage
+# Add specific folder names for your vector stores
+vectordb/
+vector_store/
+faiss_index/
+chroma_db/
+pinecone_db/
+
+# Local database and storage files
+*.sqlite
+*.db
+*.dat
+*.pkl
+
+# Generated data, cached files, and outputs
+cache/
+cached_data/
+output/
+downloads/
+embeddings/
+
+# ---------------------------------------------------
+# IDE and OS-specific ignores
+# ---------------------------------------------------
+
+# For macOS
+.DS_Store
+
+# For Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+app.py
+llm models/app.py
+llm models/chatbot.ipynb
+llm models/checking.py
+

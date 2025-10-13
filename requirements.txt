@@ -1,21 +1,21 @@
 langchain
-ipykernel
-langchain_community
-pypdf
-beautifulsoup4
-arxiv
-pymupdf
-wikipedia
-langchain_text_splitters
-langchain-openai
+# ipykernel
+# langchain_community
+# # pypdf
+# beautifulsoup4
+# arxiv
+# pymupdf
+# wikipedia
+# langchain_text_splitters
+# langchain-openai
 python-dotenv
-chromadb
-sentence_transformers
-langchain_huggingface
-faiss-cpu
-langchain_chroma
+# chromadb
+# sentence_transformers
+# langchain_huggingface
+# faiss-cpu
+# langchain_chroma
 dotenv
-streamlit
+# streamlit
 langchain_groq
 langchain_core
 fastapi

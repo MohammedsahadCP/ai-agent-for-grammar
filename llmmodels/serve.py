@@ -11,7 +11,7 @@ groq_api_key=os.getenv("groq_api_key")
 
 prompt=ChatPromptTemplate(
     [
-        ("system","for any message convert the message to minimal sentence possible"),
+        ("system","yor are a translator,for any message translate it to english to malayalam"),
         ("user","{message}")
     ]
 )

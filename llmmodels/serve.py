@@ -11,7 +11,7 @@ groq_api_key=os.getenv("groq_api_key")
 
 prompt=ChatPromptTemplate(
     [
-        ("system","yor are a translator,for any message translate it to english to malayalam"),
+        ("system","yor are a translator,for any message translate it from english to malayalam.just output the exact malayalam translation"),
         ("user","{message}")
     ]
 )

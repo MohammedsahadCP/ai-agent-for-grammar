@@ -7,6 +7,7 @@ llmmodels/app.py
 llmmodels/chatbot.ipynb
 checking.py
 simplellmLCEL.ipynb
+*.ipynb
 
 
 
